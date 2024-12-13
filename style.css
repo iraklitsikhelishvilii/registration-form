@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ultra&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: auto;
+  font-family: "Poppins", sans-serif;
+}
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: auto;
+  font-family: "Poppins", sans-serif;
+  background-image: url(./images/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.container {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container_contant {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -0.521px;
+}
+p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.free_free {
+  width: 540px;
+  height: 60px;
+  background-color: #5e54a4;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.registration_box {
+  width: 540px;
+  height: auto;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+}
+.container_right_box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.free_p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.268px;
+}
+span {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.268px;
+}
+.free_free {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registration_box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 40px;
+}
+input {
+  width: 380px;
+  border: 1px solid #5e54a4;
+  background-color: #fff;
+  outline: none;
+  padding-left: 32px;
+  color: #3d3b48;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  border: none;
+}
+button {
+  width: 460px;
+  height: 56px;
+  border-radius: 5px;
+  background: #38cc8b;
+  box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 1px;
+  border: none;
+}
+.bottom_p {
+  color: #bab7d4;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 26px;
+  padding-bottom: 40px;
+}
+.red_span {
+  color: #ff7979;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.input_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #5e54a4;
+  width: 460px;
+  height: 56px;
+  border-radius: 5px;
+}
+img {
+  padding-right: 27px;
+  display: none;
+}
+.error_p {
+  color: #ff7979;
+  text-align: right;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 500;
+  display: none;
+}
+.input_box_main {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.br_mobile {
+  display: none;
+}
+@media (max-width: 1100px) {
+  body {
+    height: auto;
+  }
+  .container {
+    flex-direction: column;
+    padding-top: 85px;
+    padding-bottom: 50px;
+    gap: 55px;
+  }
+  section {
+    background-image: url(./images/mobile.svg);
+    background-size: cover;
+    height: auto;
+  }
+  h1 {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .br_mobile {
+    display: flex;
+  }
+  .free_p {
+    text-align: center;
+  }
+  .free_free {
+    width: 327px;
+    height: 88px;
+  }
+  .registration_box {
+    width: 327px;
+    height: auto;
+    gap: 15px;
+  }
+  .input_box {
+    width: 279px;
+    height: 56px;
+  }
+  input {
+    width: 200px;
+    padding-left: 18px;
+  }
+  button {
+    width: 279px;
+    height: 56px;
+  }
+  .bottom_p {
+    text-align: center;
+    padding-bottom: 24px;
+  }
+  .br_desktop {
+    display: none;
+  }
+  form {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 600px) {
+}
