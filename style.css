@@ -165,10 +165,14 @@ img {
   font-style: italic;
   font-weight: 500;
   display: none;
+  position: absolute;
+  top: 50px;
+  right: 0px;
 }
 .input_box_main {
   display: flex;
   flex-direction: column;
+  position: relative;
   align-items: end;
 }
 .br_mobile {
@@ -237,4 +241,3 @@ img {
     padding-top: 20px;
   }
 }
-
