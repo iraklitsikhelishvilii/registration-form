@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition: all 1s ease-in-out;
 }
 body {
   display: flex;
@@ -236,5 +237,4 @@ img {
     padding-top: 20px;
   }
 }
-@media (max-width: 600px) {
-}
+
