@@ -131,6 +131,7 @@ button {
   line-height: 26px;
   letter-spacing: 1px;
   border: none;
+  cursor: pointer;
 }
 .bottom_p {
   color: #bab7d4;
